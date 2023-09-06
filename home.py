@@ -51,10 +51,11 @@ hide_streamlit_style = """
             .main {background-color: #f8f9d2;
             background-color: #f8f9d2;
 background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
-color:black;
+
             
             
             }
+            body{color:black;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
