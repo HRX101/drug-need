@@ -56,6 +56,7 @@ background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
             
             }
             h1{color:black;}
+            p{color:black;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
