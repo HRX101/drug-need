@@ -34,7 +34,7 @@ if np1!="":
     np1=float(np1)
 Button=st.button("submit")
 
-with open('stack_model.pkl', 'rb') as file:
+with open('logistic.pkl', 'rb') as file:
       
     # Call load method to deserialze
     model= pc.load(file)
